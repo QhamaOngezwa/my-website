@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(0, 0, 0, 0.897);
+}
+header {
+  background-color: rgb(139, 17, 17);
+  max-width: 40px;
+}
+.introductory-section {
+  display: flex;
+  margin: 80px auto;
+  justify-content: space-around;
+}
+.intro-container {
+  color: white;
+  width: 500px;
+  margin-top: 100px;
+  margin-right: 200px;
+
+  font-size: 45px;
+  text-align: center;
+}
+.introductory-section img {
+  border-radius: 200px;
+  box-shadow: 0px 0px 20px rgb(1, 1, 26);
+  transform: matrix(20px);
+}
